@@ -13,7 +13,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22 # ใช้เวอร์ชันเดียวกับที่ใช้บนเครื่องคุณ
+          node-version: 24
 
       - run: npm ci
       - run: npm run lint
